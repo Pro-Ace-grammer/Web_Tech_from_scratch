@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+}
+/*.red{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(144, 38, 38);
+    this is static
+    margin: 20px;
+
+}*/
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(127, 127, 174);
+    margin: 10px;
+    position: sticky;
+    top: 80px;
+}

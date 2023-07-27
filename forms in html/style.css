@@ -1,0 +1,110 @@
+*{
+    margin: 1.4%;
+}
+html{
+    margin: 0%;
+    margin-bottom: 0%;
+}
+.forms{
+    margin-left: 420px;
+    margin-top: 110px;
+    margin-bottom: 200px;
+    color: aliceblue;
+    background: linear-gradient(rgb(34, 42, 54),rgb(32, 69, 108),rgb(24, 23, 34));
+    width: fit-content;
+}
+body{
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background: linear-gradient(rgb(21, 66, 64),rgb(24, 141, 137),rgb(41, 238, 232))
+
+}
+button{
+    width: 100px;
+    background-color: rgb(22, 122, 122);
+    border-radius: 40%;
+    margin-left: 200px;
+    height: 30px;
+}
+.name {
+    display: inline-flex;
+    margin-left: 22%;
+}
+.name input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 50px;
+}
+.cont {
+    display: inline-flex;
+    margin-left: 20%;
+}
+.cont input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 50px;
+}
+.pass {
+    display: inline-flex;
+    margin-left: 18%;
+}
+.pass input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 50px;
+}
+.email {
+    display: inline-flex;
+    margin-left: 22.7%;
+}
+.email input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 50px;
+}
+.dob {
+    display: inline-flex;
+    margin-left: 25.9%;
+}
+.dob input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 30px;
+}
+.gend {
+    display: inline-flex;
+    margin-left: 21%;
+}
+.gend input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+}
+.state {
+    display: inline-flex;
+    margin-left: 25%;
+}
+.state select{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 20px;
+}
+.adder {
+    display: inline-flex;
+    margin-left: 20%;
+}
+.adder textarea{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+    border-radius: 10px;
+}
+.check {
+    margin-left: 21%;
+}
+.check input{
+    background-color: rgb(24, 40, 50);
+    color: aquamarine;
+}
+.check a{
+    color: aquamarine;
+}

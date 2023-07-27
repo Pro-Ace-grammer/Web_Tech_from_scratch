@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        body{
+            background-color: rgb(240, 232, 166);
+        }
+        h1{
+            color: white;
+            background-color: rgb(29, 57, 30);
+            text-align: center;
+            padding: 10px 10px;
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+            padding: 15px 0px;
+        }
+        .navbar li{
+            display: inline;
+            margin-right: 30px;
+        }
+        .navbar li a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        p{
+            border: 1px solid;
+            width: 60%;
+            height: 150px;
+            padding: 12px 12px 12px 12px;
+        }
+        div{
+            border: 2px solid rgb(15, 224, 15);
+            width: 300px;
+            padding-left: 140px;
+        }
+        #pp1{
+            text-align: center;
+        }
+        li{
+            display: inline;
+            border: 1px solid;
+            margin-right: 10px;
+            padding: 10px;
+            border-radius: 50px;
+            background: linear-gradient(rgb(74, 5, 5),rgb(4, 37, 75));
+        }
+        #fa-brands fa-instagram{
+            color: blue;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/391f2894b7.js" crossorigin="anonymous"></script>
+</head>
+<body style="background: black; color: aquamarine;">
+    <h1>Arsalan</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="newbox.html">Home</a></li>
+            <li><a href="box.html">About</a></li>
+            <li><a href="../img_project/index.html">Help</a></li>
+        </ul>
+    </nav>
+        <!--list is a block element so it will display the elements one below the other so we use the property display: whatever u want to specify .... now we will see that our elements are close to each other touching to we use marging right and we specify the pxls-->
+    <!--all the elements by default have an imaginary box ... to see that we give "border" property ... the content will be touching the border.. so to give some breathing space we use 'padding' property-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eius non mollitia consequatur maxime, reiciendis neque! Dolores architecto recusandae ratione!</p>
+    <div id="p1">
+        <p id="pp1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ullam quo rem repudiandae voluptatum soluta libero reiciendis sequi ex tempora?
+        </p>
+        <i class="fa-brands fa-instagram" style="color: #6be1b9;"></i>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background: url(../image/space.png); */
+    background-image: url(../image/space.png);
+    background-size: cover;
+    
+}
+.container{
+    height: 300px;
+    width: 220px;
+    border: 1px solid;
+    background-color: rgb(33, 50, 79);
+    margin: 145px auto;
+    padding: 15px;
+}
+.input{
+    display: inline;
+    
+}
