@@ -291,6 +291,7 @@ form .log-btn button:hover{
     position: absolute;
     left: 235px;
     top: 920px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer-a p{
     color: rgb(167, 157, 157);

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement</title>
+    <!--
+
+        <style>
+            body{
+                background-color: rgba(54, 54, 81, 0.623);
+            }
+        .container{
+            width: 40%;
+            height: 300px;
+            background-color: rgb(147, 74, 47);
+        }
+        .box-per{
+            width: 30%;
+            height: 50%;
+            background-color: rgb(40, 11, 68);
+        }
+        .fonts{
+            width: 40%;
+            height: fit-content;
+        }
+        html{
+            font-size: 18px;
+        }
+        .fonts{
+            font-size: 25px;
+        }
+        .fonts .em{
+            font-size: 1em;
+        }
+        .fonts .rem{
+            font-size: 1rem;
+        }
+    </style>
+-->
+    <!--<style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .vh-vw{
+            background-color: rgb(87, 31, 31);
+            width: 100vw;
+            height: 20vh;
+        }
+        .s-sec{
+            display: flex;
+            width: 100vw;
+        }
+        .s-sec .side{
+            background-color: blue;
+            width: 20vw;
+            height: 60vh;
+        }
+        .s-sec .section{
+            background-color: blueviolet;
+            width: 80vw;
+            height: 60vh;
+        }
+        .footer{
+            background-color: rgb(87, 31, 31);
+            width: 100vw;
+            height: 20vh;
+        }
+    </style>-->
+    <style>
+        .vmin{
+            background-color: cadetblue;
+            width: 50vmin;
+            height: 50vmin;
+        }
+        .vmax{
+            background-color: brown;
+            width: 50vmax;
+            height: 50vmax;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        <div class="container">
+            <div class="box-per"></div>
+        </div>
+    -->
+
+
+    <!--below is for font sizes 'em' takes the measurement from the parent element 
+    so if we have some px of size specified for our html then it will be appplied to the entire document ... and if we put some em for any p ... then it willl take the measurement from the parent element ...-->
+    <!--<div class="fonts">
+        <p class="em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, iusto. Qui quibusdam tempore suscipit, consectetur nostrum eos quae id libero vero deleniti dicta fugit, ex aperiam, aut neque reprehenderit sint.</p>
+        <p class="rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam atque quibusdam animi, iure odit maiores, odio molestiae aut ducimus assumenda asperiores quae non officia repudiandae quam quod, eaque fuga.</p>
+    </div>-->
+    <!--when we use 'rem' it takes the measurement from the document element and not from the parent element unlike em value-->
+
+<!--veiwer portal heiht and width-->
+    <!--<div class="vh-vw"></div>
+    <div class="s-sec">
+        <div class="side"></div>
+        <div class="section"></div>
+    </div>
+    <div class="footer"></div>-->
+
+<!--viewers min AND  max for min (vmin)it checks which is the minimun value either width or height ... if width is minimum it will give specified number for width and height as well and vice versa for max value (vmax)-->
+    <div class="vmin"></div>
+    <div class="vmax"></div>
+</body>
+</html>

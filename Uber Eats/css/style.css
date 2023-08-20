@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    overflow-x: hidden;
+} */
+.main-container{
+    width: 100vw;
+    height: fit-content;
+}
+.inner-container{
+    background: url(../image/9b21aa66b4922ae2.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding-top: 35px;
+}
+.navbar .menu-btn{
+    display: flex;
+    margin-left: 40px;
+}
+.navbar .menu-btn a svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
+.navbar .log-sign{
+    margin-right: 40px;
+}
+.navbar .log-sign a button{
+    margin-right: 10px;
+    height: 45px;
+    width: 95px;
+    cursor: pointer;
+}
+.navbar .log-sign a .log{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border: none;
+}
+.navbar .log-sign a .sign{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+
+
+
+.pic-content{
+    width: 88vw;
+    height: fit-content;
+    margin-top: 115px;
+    margin-left: 35px;
+}
+.pic-content .head1 h1{
+    font-size: 50px;
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+}
+
+.pic-content .form{
+    display: flex;
+    padding: 5px;
+    margin-top: 25px;
+}
+.pic-content .form .input input{
+    height:55px;
+    width: 400px;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    border: none;
+}
+
+.pic-content .form .sel select{
+    height:55px;
+    width: 200px;
+    padding-left: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+}
+
+.pic-content .find-btn a .find{
+    height:55px;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.pic-content .para p{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.pic-content .para p a{
+    color: black;
+    text-decoration: none;
+}
+.pic-content .para p a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.pic-3{
+    display: flex;
+    width: 90vw;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.boxes{
+    height: 200px;
+    width: 350px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.boxes img{
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.808);
+}
+.pic-3 .boxes h3{
+    color: black;
+}
+.pic-3 .boxes p{
+    color: black;
+}
+
+
+.list{
+    width: 100vw;
+    height: 50vh;
+}
+.ubereats{
+    width: 40vw;
+}
